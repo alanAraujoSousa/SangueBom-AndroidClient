@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_login"
+        android:background="@drawable/title_login"
+        android:layout_above="@+id/sign_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="15"
+        android:hint="@string/usuario"
+        android:id="@+id/sign_login"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/sign_password"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="15"
+        android:hint="@string/senha"
+        android:id="@+id/sign_password"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/sign_login" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar"
+        android:id="@+id/sign_btn"
+        android:background="@drawable/btn_entrar"
+        android:onClick=""
+        android:layout_below="@+id/sign_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastre-se"
+        android:background="@drawable/cadastrese"
+        android:id="@+id/sign_btn_signup"
+        android:layout_below="@+id/sign_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+
+</RelativeLayout>

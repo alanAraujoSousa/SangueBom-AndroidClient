@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">SangueBom</string>
+
+    <string name="title_section1">Meu profile</string>
+    <string name="title_section2">Compatibilidade</string>
+    <string name="title_section3">Hemocentros</string>
+    <string name="title_section4">Lista de pacientes</string>
+    <string name="title_section5">Logout</string>
+    <string name="usuario">Insira seu usuario</string>
+    <string name="senha">Insira sua senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="nomecadastro"> Insira seu nome </string>
+    <string name="usuariocadastro"> Insira seu login </string>
+    <string name="verificardoacao"> ultima vez que você doou? </string>
+    <string name="senhacadastro">Insira sua senha</string>
+    <string name="confirmarsenhacadastro">confirme sua senha</string>
+    <string name="emailcadastro"> Insira seu E-mail </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="categoria">Close </string>
+    <string name="gender">Sexo</string>
+
+    <string-array name="sexo">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="categoria_sangue">
+        <item>O-</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="content_blood_compat">A text about blood compatibility</string>
+    <string name="title_blood_compat">Blood compatibility</string>
+</resources>

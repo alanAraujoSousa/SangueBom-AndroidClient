@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_compatibilidade"
+        android:background="@drawable/compatibilidade"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabela_compatibilidade"
+        android:background="@drawable/tabela_compatibilidade"
+        android:layout_below="@id/title_compatibilidade"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+<TextView
+    android:id="@+id/requisitos"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tabela_compatibilidade"
+    android:layout_centerHorizontal="true"
+    android:textSize="18dp"
+    android:textColor="#D00000"
+    android:layout_margin="5dp"
+    android:text="REQUISITOS PARA DOACAO:"/>
+
+    <TextView
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/requisitos"
+        android:layout_centerHorizontal="true"
+        android:textSize="14dp"
+        android:text="- Ter entre 16 e 65 anos;
+- Pesar mais de 50Kg;
+- Caso tenha feito uma tatuagem, aguardar entre 6 a 12 meses;
+- Nunca ter usado drogas ilícitas injetáveis;
+- Aguardar um ano após a cura de alguma DST;
+"/>
+
+</RelativeLayout>
